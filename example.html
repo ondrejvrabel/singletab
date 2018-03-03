@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Example - Pinf SingleTab</title>
+    <script src="singletab.js"></script>
+  </head>
+  <body>
+      <a href="example.html" target="_blank">Open another one</a>
+    <script>
+    singleTab.init({
+      fire: function() {
+        document.getElementById('result').innerHTML='Hey! Close it!';
+      }
+    });
+
+    singleTab.start();
+    </script>
+    <p id="result"></p>
+  </body>
+</html>
