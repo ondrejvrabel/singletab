@@ -16,6 +16,7 @@ Just include SsingleTab into footer of every page which cannot be opened mutlipl
 * *fire* - function to fire when multiple tabs detected (fires on every tab when ignoreDate is 1)
 * *multifire* - function to fire every time when "check" is called and detects page loaded in multiple tabs (warning: multifire fires approx. every `interval` ms when tabs are detected)
 ## Example
+[View on htmlpreview.github.io]https://htmlpreview.github.io/?https://raw.githubusercontent.com/ondrejvrabel/singletab/master/example.html
 ```
 <script>
     singleTab.init({
